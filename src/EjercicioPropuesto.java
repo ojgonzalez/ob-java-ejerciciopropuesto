@@ -63,7 +63,6 @@ public class EjercicioPropuesto extends JFrame implements ActionListener{
             for(int dCounter = 1; dCounter <= 180; dCounter++){
                 if(dCounter == 1){
                     flTemporal = intSaldo + (intSaldo * (flPorcentaje / 100));
-                    System.out.println("Porcentaje: " + (flPorcentaje / 100));
                 }else {
                     flTemporal = flTemporal + (flTemporal * (flPorcentaje / 100));
                     System.out.println("Porcentaje: " + (flPorcentaje / 100));
